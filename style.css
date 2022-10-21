@@ -46,8 +46,10 @@ body {
 }
 */
 
-.info {
-  padding: 2rem 2rem 1rem 2rem;
+.text {
+  margin-top: 2rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .text h1 {
@@ -62,9 +64,30 @@ body {
   line-height: 1.4rem;
 }
 
+.footer-size {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1rem;
+}
+
 .author {
   display: flex;
   align-items: center;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+  min-height: 62px;
+  background-color: hsl(217, 19%, 35%);
+}
+
+.social-media p {
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 
 .author img {
@@ -78,15 +101,34 @@ body {
 .icon-forward {
   justify-self: end;
   margin-left: auto;
-  background-color: hsl(210, 46%, 95%);
-  font-size: 15px;
-  color: hsl(214, 17%, 51%);
+  font-size: 15px;  
   padding: 10px;
   border-radius: 50%;
   overflow: hidden;
   transition: 
-    transform .5s ease-in,
-    box-shadow .5s ease-in;
+    transform .2s ease-in,
+    box-shadow .2s ease-in;
+}
+
+/*div with social medias */
+.icons-social-media {
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: hsl(210, 46%, 95%);
+}
+
+.icon-forward-style-non-active {
+  background-color: hsl(210, 46%, 95%);
+  color: hsl(214, 17%, 51%);
+}
+
+.icon-forward-active {
+  background-color: hsl(214, 17%, 51%);
+  color: hsl(210, 46%, 95%);
 }
 
 .icon-forward:hover {

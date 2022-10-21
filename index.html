@@ -15,8 +15,9 @@
     <title>Frontend Mentor | Article preview component</title>
     <link rel="stylesheet" type="text/css" href="./style.css" />
     <link rel="stylesheet" type="text/css" href="./fontello-cb166eef/css/fontello.css"/>
-
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+
+    <script src="./script.js" type="text/javascript"></script>
     
   </head>
   <body>
@@ -27,7 +28,6 @@
         -->
       </section>
       </section> 
-      <div class="info">
         <section class="text">
           <h1 class="text-highlight">
             Shift the overall look and feel by adding these wonderful touches to
@@ -39,16 +39,34 @@
             simple tips to help you make any room feel complete.
           </p>
         </section>
-        <footer class="author">
+        <!-- 
+          another class for footer: author
+          footer main content:
           <img src="./images/avatar-michelle.jpg" alt="Michelle Apleton avatar"/>
           <p>
             <span class="text-highlight font-weight letter-spaceing">Michelle Appleton</span>
             <br>
             28 Jun 2020        
           </p>
-          <i class="icon-forward"></i>
+          <i id="share" class="icon-forward icon-forward-style-non-active"></i>
+         -->
+        <footer class="social-media footer-size">
+          <p>
+          share  
+          </p>
+          <div class="icons-social-media">
+            <a href="https://www.facebook.com/" target="_blank">
+              <i id="fb" class="icon-facebook-official"></i>
+            </a>
+            <a href="https://twitter.com/"  target="_blank">
+              <i id="twitter" class="icon-twitter"></i>
+            </a>
+            <a href="https://pl.pinterest.com/"  target="_blank">
+              <i id="pinterest" class="icon-pinterest-circled"></i>
+            </a>
+          </div>                    
+          <i id="share" class="icon-forward icon-forward-active"></i>          
         </footer>
-      </div>
     </article>
 
     
